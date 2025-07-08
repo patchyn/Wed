@@ -1,14 +1,16 @@
 {
-  "name": "werdmail-bot",
+  "name": "werdmail",
   "version": "1.0.0",
-  "description": "Bot de Telegram todo-en-uno para WerdMail usando Cloudflare Workers y Firebase",
+  "type": "module",
   "main": "worker.js",
   "scripts": {
-    "dev": "wrangler dev",
-    "deploy": "wrangler publish"
+    "start": "wrangler dev"
   },
   "dependencies": {
-    "node-fetch": "^3.4.0"
+    "node-fetch": "3.3.2"
   },
-  "type": "module"
+  "devDependencies": {},
+  "engines": {
+    "node": ">=18"
+  }
 }
