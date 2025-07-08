@@ -1,14 +1,12 @@
 name = "werdmail"
-type = "javascript"
-account_id = "035b8c5bce80f27fa0a51d1aab5fdc90"
-workers_dev = true
+main = "worker.js"
 compatibility_date = "2025-07-08"
+node_compat = true
 
 [vars]
 BOT_TOKEN = "8069861632:AAEJObSQNWjxm_MsiCgmzad_-UEOeNDmwJY"
-FIREBASE_API_KEY = "AIzaSyBf49iUCGfJk_6Ktzz8RQ3g4KjcOre1Vm4"
 FIREBASE_PROJECT = "werdmail-fd79b"
 
 [[kv_namespaces]]
-binding = "WERDMAIL_STATES"
+binding = "WERDMAIL_STATE"
 id = "55648fedc3a642fcb2e04cc8fa3a9e3a"
