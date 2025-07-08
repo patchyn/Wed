@@ -1,7 +1,7 @@
 name = "werdmail"
 main = "worker.js"
 compatibility_date = "2025-07-08"
-node_compat = true
+compatibility_flags = ["nodejs_compat"]
 
 [vars]
 BOT_TOKEN = "8069861632:AAEJObSQNWjxm_MsiCgmzad_-UEOeNDmwJY"
