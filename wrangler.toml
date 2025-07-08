@@ -1,0 +1,9 @@
+name = "werdmail-bot"
+main = "worker.js"
+compatibility_date = "2024-05-01"
+
+[vars]
+BOT_TOKEN = "8069861632:AAEJObSQNWjxm_MsiCgmzad_-UEOeNDmwJY"
+FIREBASE_API_KEY = "AIzaSyBf49iUCGfJk_6Ktzz8RQ3g4KjcOre1Vm4"
+FIREBASE_PROJECT = "werdmail-fd79b"
+FIREBASE_BUCKET = "werdmail-fd79b.appspot.com"
